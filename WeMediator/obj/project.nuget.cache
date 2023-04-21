@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "tpP5rArefuFZ6YPo+f6vo1em99MFOg+pvD5LxDpTWSp8pKvqwuxBeUbhnzGDkTUA5ChqJwdK+Otdu5BgS4bBqw==",
+  "success": true,
+  "projectFilePath": "E:\\projets\\WeMediator\\WeMediator\\WeMediator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jc.ambert\\.nuget\\packages\\dawn.guard\\1.12.0\\dawn.guard.1.12.0.nupkg.sha512",
+    "C:\\Users\\jc.ambert\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
