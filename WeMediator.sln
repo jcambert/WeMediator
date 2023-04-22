@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeMediator", "WeMediator\WeMediator.csproj", "{240A2E8D-CF7B-4C81-8DD1-3D6F0A6A5827}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeMediator", "src\WeMediator\WeMediator.csproj", "{240A2E8D-CF7B-4C81-8DD1-3D6F0A6A5827}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "We.Results", "..\WeTurf\libraries\We.Result\We.Results.csproj", "{007EE720-8AC9-4ED3-A317-637AC068AF7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeMediatorConsole", "WeMediatorConsole\WeMediatorConsole.csproj", "{E9008AA7-EF58-4CA3-9ADC-00CD08E64474}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeMediatorConsole", "src\WeMediatorConsole\WeMediatorConsole.csproj", "{E9008AA7-EF58-4CA3-9ADC-00CD08E64474}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeMyMediatorConsole", "WeMyMediatorConsole\WeMyMediatorConsole.csproj", "{6ABB2F80-AC46-4470-9956-3F48A124CAC9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeMyMediatorConsole", "src\WeMyMediatorConsole\WeMyMediatorConsole.csproj", "{6ABB2F80-AC46-4470-9956-3F48A124CAC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
