@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\WeTurf\libraries\We.Result\We.Results.csproj" />
+    <ProjectReference Include="..\..\..\WeTurf\libraries\We.Result\We.Results.csproj" />
   </ItemGroup>
 
 </Project>

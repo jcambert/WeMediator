@@ -9,11 +9,11 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="BenchmarkDotNet" Version="0.13.5" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\WeTurf\libraries\We.Result\We.Results.csproj" />
-    <ProjectReference Include="..\WeMediator\WeMediator.csproj" />
+    <ProjectReference Include="..\..\src\WeMediator\WeMediator.csproj" />
   </ItemGroup>
 
 </Project>

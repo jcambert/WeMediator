@@ -6,6 +6,7 @@ using WeMediator;
 Console.WriteLine("Hello, World!");
 var services = new ServiceCollection();
 services.AddMediator();
+//services.AddRequestHandler<Ping,Pong,PingHandler>();
 
 var sp = services.BuildServiceProvider();
 
@@ -13,13 +14,13 @@ var mediator = sp.GetRequiredService<IMediator>();
 try
 {
 
-    var result = await mediator.Send(new Ping(default));
+    var result = await mediator.Send(new Ping(default,true));
     Console.WriteLine(result);
     if (result)
         Console.WriteLine(result.Value.ToString());
-    if((result.IsValidFailure && result.HasError) || !result)
+    if ((result.IsValidFailure && result.HasError) || !result)
     {
-        Console.WriteLine(result.Errors.AsString(!result?"[ERR]:":""));
+        Console.WriteLine(result.Errors.AsString(!result ? "[ERR]:" : ""));
     }
 }
 catch (Exception ex)
